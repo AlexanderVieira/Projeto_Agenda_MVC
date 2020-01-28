@@ -26,7 +26,7 @@ namespace AgendaDomain.Entities
         [Display(Name = "Data de Nascimento")]
         [DataType(DataType.Date)]
         [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd/MM/yyyy}")]
-        [Column("nascimento")]
+        [Column("Nascimento")]
 
         public DateTime Nascimento { get; set; }
         [Display(Name = "Dias Próximo Aniversário")]

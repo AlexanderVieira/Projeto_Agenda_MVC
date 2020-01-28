@@ -13,7 +13,7 @@ namespace AgendaDataBaseSQL.Repositories
     public class RepositoryUsuario : IRepositoryUsuario
     {
         private readonly String str_conn = @"Data Source=(LocalDB)\MSSQLLocalDB;
-                                            AttachDbFilename=|DataDirectory|\agenda_db.mdf;
+                                            AttachDbFilename=|DataDirectory|\AgendaDb.mdf;
                                             Integrated Security=True";        
 
         public RepositoryUsuario()
